@@ -1,3 +1,4 @@
+import "./Paginas.css";
 function Contato() {
     return (
         <div>

@@ -1,0 +1,1 @@
+import "./Paginas.css";
