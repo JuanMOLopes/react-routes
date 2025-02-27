@@ -1,15 +1,14 @@
 import "./Paginas.css";
 
-import Titulo from "./components/Header/Header";
-import Lado from "./components/Lado/Lado";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
+import Titulo from "../components/Header/Header";
+import Lado from "../components/Lado/Lado";
+import Footer from "../components/Footer/Footer";
 
 import Instagram from "../../public/instagram.png";
 import Gmail from "../../public/gmail.png";
 import Logo from "../../public/logo.png";
 
-import pagina3 from "../../public/pg3.jpg"
+import pagina3 from "../../public/pg3.jpg";
 
 function Home() {
   return (
@@ -17,8 +16,6 @@ function Home() {
       <Titulo desafio="🏠 HOME" logo={Logo} />
 
       <div className="container">
-        <Navbar />
-
         <article>
           <img src={pagina3} alt="" />
           <p>Carangueijo enorme</p>

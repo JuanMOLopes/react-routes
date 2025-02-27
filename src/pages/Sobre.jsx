@@ -1,10 +1,12 @@
+import "./Paginas.css";
+
 import Titulo from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import pagina4 from "../../public/pg4.jpg";
-import Logo from "../../public/logo.png"
-import Instagram from "../../public/instagram.png"
-import Gmail from "../../public/gmail.png"
+import Logo from "../../public/logo.png";
+import Instagram from "../../public/instagram.png";
+import Gmail from "../../public/gmail.png";
 
 function Sobre() {
   return (
