@@ -9,6 +9,8 @@ import Instagram from "../../public/instagram.png";
 import Gmail from "../../public/gmail.png";
 import Logo from "../../public/logo.png";
 
+import pagina3 from "../../public/pg3.jpg"
+
 function Home() {
   return (
     <div>
@@ -18,7 +20,8 @@ function Home() {
         <Navbar />
 
         <article>
-          <img src={peixe} alt="" />
+          <img src={pagina3} alt="" />
+          <p>Carangueijo enorme</p>
         </article>
 
         <Lado />
