@@ -1,3 +1,5 @@
+import pagina4 from "./public/imagens/pg4.jpg"
+
 function Sobre() {
     return (
         <div>

@@ -1,3 +1,5 @@
+import pagina1 from "./public/imagens/pg1.jpg"
+
 function Contato() {
     return (
         <div>
