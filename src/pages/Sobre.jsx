@@ -1,6 +1,7 @@
 import Titulo from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 
+import pagina4 from "./public/imagens/pg4.jpg"
 
 function Sobre (){
     return(
@@ -11,9 +12,6 @@ function Sobre (){
         <img src="" alt="" />
         <p> </p>
         <Footer texto1="@JuanMOLopes" insta={Instagram} texto2="juan.molopes@gmail.com 💻" gmail={Gmail} texto3="O responsável pelo desenvolvimento foi JuanMOLopes.🎉" />
-
         </div>
-    )
-}
 
 export default Sobre

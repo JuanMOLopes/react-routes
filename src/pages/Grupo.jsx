@@ -1,6 +1,8 @@
 import Titulo from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 
+import pagina2 from "./public/imagens/pg2.jpg"
+
 
 function Grupo (){
     return(
