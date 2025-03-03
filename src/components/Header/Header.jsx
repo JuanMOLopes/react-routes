@@ -4,8 +4,8 @@ function Titulo(props) {
   return (
     <>
       <header>
-        <img src={props.logo} className="Img" />
-        <h1>{props.desafio}</h1>
+        <img src={props.logo} className="header-img" />
+        <h1>{props.titulo}</h1>
       </header>
     </>
   );

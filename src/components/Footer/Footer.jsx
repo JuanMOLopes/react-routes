@@ -4,10 +4,17 @@ function Footer(props) {
   return (
     <>
       <footer>
-        <p>{props.texto1} </p>
-        <img src={props.insta} className="Img" />
-        <p>{props.texto2} </p>
-        <img src={props.gmail} className="Img" />
+        <div className="redes">
+          <div className="insta">
+            <img src={props.insta} className="footer-img" />
+            <p>{props.texto1} </p>
+          </div>
+          <div className="gmail">
+            <img src={props.gmail} className="footer-img" />
+            <p>{props.texto2} </p>
+          </div>
+        </div>
+
         <p>{props.texto3} </p>
       </footer>
     </>

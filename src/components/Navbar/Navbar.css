@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8b6a0;
+  width: 16rem;
+  height: 50vh;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9a6f51;
+}

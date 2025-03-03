@@ -2,25 +2,22 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     background-color: #d8b6a0;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px;
   }
   
   h1 {
-    font-size: 28px;
-    color: #333333;
+    font-size: 3.5rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 0;
+    margin-left: 4.5rem;
   }
   
-  .Img {
-    width: 100px;
+  .header-img {
+    width: 6rem;
     height: auto;
     border-radius: 10px;
-    margin-left: 30%;
   }
