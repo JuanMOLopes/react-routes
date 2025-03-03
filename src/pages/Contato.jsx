@@ -1,30 +1,38 @@
 import "./Paginas.css";
 
 import Titulo from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
+import Lado from "../components/Lado/Lado";
 import Footer from "../components/Footer/Footer";
-import pagina1 from "../../public/pg1.jpg";
+
+import Instagram from "../../public/instagram.png";
+import Gmail from "../../public/gmail.png";
+import Logo from "../../public/logo.png";
 
 function Contato() {
   return (
     <div>
-      <Titulo desafio="PROJETO - REACT" logo={Logo} />
-      <h1> Contato </h1>
-      <p>
-        {" "}
-        Contrate nossos serviços como caçadores de monstros marinhos. Somos
-        experientes e dedicados a acabar com as bestas em sua piscina!{" "}
-      </p>
-      <img src={pagina1} alt="" />
-      <p> Telefone : (19)40028922 </p>
+      <Titulo titulo="contato" logo={Logo} />
+
+      <div className="container">
+        <Navbar />
+
+        <article>
+          <p>Contrate nossos serviços como caçadores de monstros marinhos. Somos experientes e dedicados a acabar com as bestas em sua piscina!</p>
+          <p><strong>Telefone:</strong> (19) 4002-8922</p>
+        </article>
+
+        <Lado txt1="Companheirismo" txt2="Confiança" txt3="Resiliência" />
+      </div>
+
       <Footer
-        texto1="@JuanMOLopes"
         insta={Instagram}
-        texto2="juan.molopes@gmail.com 💻"
         gmail={Gmail}
-        texto3="O responsável pelo desenvolvimento foi JuanMOLopes.🎉"
+        texto1="@juanmolopes"
+        texto2="juanmolopes@gmail.com"
+        texto3="O responsável pelo desenvolvimento foi Juan Lopes."
       />
     </div>
   );
 }
-
 export default Contato;

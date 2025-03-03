@@ -1,33 +1,50 @@
 import "./Paginas.css";
 
 import Titulo from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
+import Meio from "../components/Meio/Meio"
+import Lado from "../components/Lado/Lado";
 import Footer from "../components/Footer/Footer";
 
-import pagina2 from "../../public/pg2.jpg";
-import Logo from "../../public/logo.png";
+import Agatha from "../../public/Agatha.png"
+import Ana from "../../public/Ana.png"
+import Zayra from "../../public/Zayra.png"
+import Anubis from "../../public/Anubis.png"
+import Lucas from "../../public/Lucas.png"
+import Juan from "../../public/Juan.png"
+
 import Instagram from "../../public/instagram.png";
 import Gmail from "../../public/gmail.png";
+import Logo from "../../public/logo.png";
 
 function Grupo() {
   return (
     <div>
-      <Titulo desafio="PROJETO - REACT" logo={Logo} />
-      <h1> Grupo 2 - Os caçadores de monstros marinhos 👹👹 </h1>
-      <p>
-        Os integrantes do grupo 2 secretamente, caçam monstros marinhos durante
-        as horas vagas!
-      </p>
-      <img src={pagina2} alt="" />
-      <p> </p>
+      <Titulo titulo="grupo 2" logo={Logo} />
+
+      <div className="container">
+        <Navbar />
+
+        <div className="cards">
+          <Meio nome="Agatha França" img={Agatha} hobby="Hobby: Ler e assistir live da Shopee" />
+          <Meio nome="Ana Beatriz" img={Ana} hobby="Hobby: Fofocar as 3am" />
+          <Meio nome="Anúbis" img={Anubis} hobby="Hobby: Programar" />
+          <Meio nome="Juan Lopes" img={Juan} hobby="Hobby: Programar" />
+          <Meio nome="Lucas Marin" img={Lucas} hobby="Hobby: Jogar Tennis" />
+          <Meio nome="Zayra França" img={Zayra} hobby="Hobby: Dormir" />
+        </div>
+
+        <Lado txt1="Companheirismo" txt2="Confiança" txt3="Resiliência" />
+      </div>
+
       <Footer
-        texto1="@JuanMOLopes"
         insta={Instagram}
-        texto2="juan.molopes@gmail.com 💻"
         gmail={Gmail}
-        texto3="O responsável pelo desenvolvimento foi JuanMOLopes.🎉"
+        texto1="@juanmolopes"
+        texto2="juanmolopes@gmail.com"
+        texto3="O responsável pelo desenvolvimento foi Juan Lopes."
       />
     </div>
   );
 }
-
 export default Grupo;

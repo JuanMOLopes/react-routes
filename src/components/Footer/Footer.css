@@ -1,15 +1,32 @@
 footer {
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  font-size: 125%;
-  color: #715a4c;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.35rem;
   background-color: #d8b6a0;
+  padding: 1rem;
 }
-img {
-  width: 05%;
-  height: 05%;
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.insta,
+.gmail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gmail{
+  margin-left: 3rem;
+}
+
+.footer-img {
+  width: 2rem;
+  height: auto;
+  margin-right: 0.5rem;
 }

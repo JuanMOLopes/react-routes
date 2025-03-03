@@ -1,29 +1,100 @@
-.body {
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.container-column {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: space-around;
+  padding: 3rem 0;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.monstros-container {
   width: 100%;
-  max-width: 1200px;
-  margin: 20px 0;
-  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
   width: 70%;
+  color: #333333;
 }
 
-.valores {
-  width: 25%;
-  padding: 20px;
-  border-radius: 8px;
+h2 {
+  font-size: 2.25rem;
+  background-color: #d8b6a0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.65rem;
+}
+
+article {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+article p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+article img {
+  width: 11rem;
+  border-radius: 10px;
+}
+
+.monstros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.monstros img {
+  width: 11rem;
+  border-radius: 10px;
+  filter: grayscale(1);
+  transition: filter 0.25s ease;
+}
+
+.monstros img:hover {
+  filter: grayscale(0);
 }
