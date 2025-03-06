@@ -76,6 +76,11 @@ article {
 article p {
   font-size: 1.25rem;
   text-align: center;
+  color: white;
+}
+
+article h3 {
+  color: white;
 }
 
 article img {
