@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(0, 79, 103);
+}
 .container {
   width: 100%;
   display: flex;
