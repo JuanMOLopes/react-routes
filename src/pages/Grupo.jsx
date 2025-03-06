@@ -1,5 +1,3 @@
-import "./Paginas.css";
-
 import Titulo from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Meio from "../components/Meio/Meio"
